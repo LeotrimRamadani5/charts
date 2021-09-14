@@ -1,0 +1,197 @@
+                text {        
+                stroke: white;
+                stroke-width: 2px;
+                paint-order: stroke;
+                }
+                .f1{
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+                .f2{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .headers{
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: space-evenly;
+                }
+                #graphic{
+                    margin-top:20px;
+                    float:right;
+                    display: relative;
+                }
+                #graphic1{
+                    float:right;
+                    margin-top:30px;
+                    overflow-y: scroll;
+                    height:300px;
+                }
+                body {
+                    font-family: "Arial", sans-serif;
+                    margin:none;
+                    padding:none;
+                }
+                .bbar{
+                    fill:rgb(86, 125, 139);
+                    
+                }
+                .axis {
+                    font-size: 13px;
+                    font-weight: 600;
+                }
+                
+                .axis path,
+                .axis line {
+                    fill: none;
+                    display: none;
+                }
+                
+                .label {
+                    font-size: 13px;
+                    font-weight:600;
+                }
+                label{
+                    text-align: center;
+                }
+                h4{
+                    text-align: center;
+                    display: inline-block;
+                    font-size:11px;
+                    font-weight:100;
+                }
+                h3{
+                    text-align: center;
+                    display: inline-block;
+                    font-size:11px;
+                    font-weight:100;
+                }
+                #map{
+                    margin-top:100px;
+                    width:700px;
+                    height:350px;
+                    border:2px solid silver;
+                    box-shadow:0px 0px 20px silver;
+                }
+                .cnt-main-container
+                {
+                    margin-top:50px;
+                    display:flex;
+                    flex-direction: column;
+                }
+                .charts{
+                    display:flex;
+                    justify-content:space-around;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width:auto;
+                    
+                }
+                .info{
+                    display:flex;
+                    justify-content: center;
+                    flex-direction: row;
+                }
+                #dot1{
+                    width:10px;
+                    height:10px;
+                    background:rgb(160, 209, 157);
+                    display:inline-block;
+                    border-radius: 25px;
+                    box-shadow:0px 0px 20px rgb(160, 209, 157);
+                }
+                label{
+                    margin-left:3px;
+                    margin-top:-3px;
+                    margin-right:5px;
+                }
+                #dot2{
+                    width:10px;
+                    height:10px;
+                    background:rgb(240, 149, 164);
+                    display:inline-block;
+                    border-radius: 25px;
+                    box-shadow:0px 0px 20px rgb(240, 149, 164);
+                }
+    
+                #dot3{
+                    background-color:rgb(181, 174, 175);
+                    width:10px;
+                    height:10px;
+                    display:inline-block;
+                    border-radius: 25px;
+                    box-shadow:0px 0px 20px rgb(181, 174, 175);
+                }
+                .t1{
+                    color:red;
+                }
+                .texts{
+                    display:flex;
+                    flex-direction: row;
+                }
+                .texts p{
+                    width:200px;
+                    font-size:14px;
+                }
+                .mybar{
+                    margin-top:15px;
+                    margin-bottom:10px;
+                    width:600px;
+                    height:15px;
+                    box-shadow: 0px 0px 10px black;
+                    background: linear-gradient(to right, rgb(171, 209, 224) 0%, rgb(51, 80, 92) 100%);
+                    margin-left:5px;
+                    margin-right:5px;
+                }
+                
+                .mybar-container{
+                    display:flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    width:700px;
+                    margin-left:80px;
+                }
+                #c1{
+                    font-size:14px;
+                }
+                #c2{
+                    font-size:14px;
+                }
+                #c3{
+                    font-size:14px;
+                    float:left;
+                    margin-right:20px;
+                    margin-left:30px;   
+                }
+                #country{
+                    height:20px;
+                    margin-top:10px;
+
+                }
+                .map-container{
+                    display:flex;
+                    flex-direction: column;
+                }
+                .my-text-box-container{
+                    display:flex;
+                    flex-direction: row;
+                }
+                .my-text-box-container input{
+                    height:18px;
+                    cursor: text;
+                    outline:none;
+                    border:1px solid rgb(197, 197, 197);
+                    margin-top:10px;
+                    float:left;
+                    width:270px;
+                }
+                .cnt{
+                    display:flex;
+                    flex-direction: row;
+                }
+                .main{
+                    display:flex;
+                    flex-direction: column;
+                }
