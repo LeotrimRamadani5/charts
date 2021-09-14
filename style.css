@@ -33,6 +33,7 @@
                     font-family: "Arial", sans-serif;
                     margin:none;
                     padding:none;
+                    overflow-y:hidden;
                 }
                 .bbar{
                     fill:rgb(86, 125, 139);
